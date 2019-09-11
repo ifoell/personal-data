@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header a {
+    display: block;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    background-color: #EEEEa0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url('https://i.imgur.com/lgjpnHl.jpg');
+}
+
+section {
+    height: 91vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div .box {
+    width: 400px;
+    padding:10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.box .center {
+    margin: 20px;
+}
+
+.head {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.main > section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 2rem;
+}
+
+.inner {
+    padding: 2rem;
+}
+
+.inner .col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 1rem;
+}
+
+.inner .row {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+.logo {
+    width: 30px;
+    border-radius: 50%;
+}
+
+#me .profile-img {
+    width: 240px;
+    border-radius: 50%;
+}
+
+#me {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url('https://i.imgur.com/Rhj76el.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url('https://i.imgur.com/SN086zQ.jpg');
+}
+
+#edu {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url('https://i.imgur.com/O5D4yFg.jpg');
+}
+
+#award {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url('https://i.imgur.com/axECcZM.jpg');
+}
+
+#skill {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url('https://i.imgur.com/j35Mb9S.jpg');
+}
+
+#workew {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url('https://i.imgur.com/42Nb1lk.jpg');
+}
